@@ -1,0 +1,192 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.fix-width {
+    width: 1270px;
+    margin: auto;
+}
+.cler-fix::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+.header-menu {
+    background-color: #3498db;
+    padding: -43px -33px;
+    margin-bottom: -16px;
+}
+.header-left {
+    float: left;
+    width: 30%;
+    width: 130px;
+}
+.header-left img {
+    width: 145px;
+}
+.header-left img {
+    max-width: 100%;
+}
+
+.header-right {
+    float: right;
+    width: 70%;
+}
+.header-right ul {
+    text-align: right;
+}
+.header-right ul li {
+    display: inline-block;
+}
+.header-right ul li a {
+    display: inline-block;
+    padding: 0px 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 21px;
+    line-height: 84px;
+    transition: 0.5s;
+    border-right: 1px solid #ddd;
+}
+.header-right ul li a:hover {
+    color: #aed3ec91;
+}
+.banner {
+    background: url;
+    background-image: url(https://img-16.ccm2.net/gj5jq-2TcVx8S3BmHCo0-D-uQZQ=/847x/5e98fba72be14c568b94574e2ffff885/ccm-faq/59458425_s.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 200px 0;
+}
+
+.content {
+}
+.content h2 {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    background: rgba(0, 0, 0, 0.4);
+    width: 439px;
+    margin: auto;
+    padding: 5px 3px;
+    border-radius: 5px;
+}
+.content h1 {
+    text-align: center;
+    color: white;
+    font-size: 34px;
+    background: rgba(52, 152, 219, 0.6);
+    width: 380px;
+    margin: 28px auto;
+    padding: 5px 3px;
+    border-radius: 5px;
+}
+.about {
+}
+.text {
+    padding: 45px 0;
+    text-align: center;
+}
+.text h1 {
+    text-align: center;
+}
+.text p {
+    width: 49%;
+    margin: auto;
+    margin-top: 20px;
+}
+.icon {
+    text-align: center;
+}
+.hero {
+    float: left;
+    width: 31.3%;
+    border: 1px solid #ddd;
+    padding: 25px 10px;
+    box-sizing: border-box;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+.hero span {
+    color: white;
+    height: 60px;
+    width: 60px;
+    display: block;
+    margin: auto;
+    background: #2a93de;
+    line-height: 60px;
+    font-size: 35px;
+    border-radius: 20px 0 20px 0;
+}
+.hero h3 {
+    font-size: 30px;
+    margin: 20px 0;
+}
+.hero p {
+}
+.container {
+    padding: 60px 0;
+}
+
+.container-left {
+    float: left;
+    width: 70%;
+}
+.left-item {
+    margin-bottom: 100px;
+}
+.container-right {
+    float: right;
+    width: 25%;
+}
+.container-left img {
+    width: 240px;
+    max-width: 100%;
+    float: left;
+    margin-right: 40px;
+}
+.container-left p {
+}
+
+.container-right h2 {
+    font-size: 40px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+.container-right p {
+    font-size: 25px;
+    border: 1px solid #ddd;
+    margin: 10px 4px;
+    padding: 4px 10px;
+}
+
+.footer {
+    padding: 20px 0;
+    background: #000;
+}
+
+.footer-left {
+    float: left;
+    width: 40%;
+}
+.footer-left p {
+    text-align: left;
+    color: white;
+    font-size: 20px;
+}
+.footer-right {
+    float: right;
+    width: 60%;
+}
+.footer-right ul {
+    text-align: right;
+}
+.footer-right ul li {
+    display: inline-block;
+}
+.footer-right ul li a {
+    color: white;
+    font-size: 30px;
+    padding: 1px 20px;
+}
